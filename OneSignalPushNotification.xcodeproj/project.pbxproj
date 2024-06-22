@@ -1,0 +1,606 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BDB6DAFA2C2744BA002D043C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAF92C2744BA002D043C /* AppDelegate.swift */; };
+		BDB6DAFC2C2744BA002D043C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAFB2C2744BA002D043C /* SceneDelegate.swift */; };
+		BDB6DAFE2C2744BA002D043C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DAFD2C2744BA002D043C /* ViewController.swift */; };
+		BDB6DB012C2744BA002D043C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDB6DB002C2744BA002D043C /* Base */; };
+		BDB6DB032C2744BC002D043C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BDB6DB022C2744BC002D043C /* Assets.xcassets */; };
+		BDB6DB062C2744BC002D043C /* Base in Resources */ = {isa = PBXBuildFile; fileRef = BDB6DB052C2744BC002D043C /* Base */; };
+		BDB6DB112C2744BC002D043C /* OneSignalPushNotificationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DB102C2744BC002D043C /* OneSignalPushNotificationTests.swift */; };
+		BDB6DB1B2C2744BC002D043C /* OneSignalPushNotificationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DB1A2C2744BC002D043C /* OneSignalPushNotificationUITests.swift */; };
+		BDB6DB1D2C2744BC002D043C /* OneSignalPushNotificationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDB6DB1C2C2744BC002D043C /* OneSignalPushNotificationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BDB6DB0D2C2744BC002D043C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB6DAEE2C2744BA002D043C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB6DAF52C2744BA002D043C;
+			remoteInfo = OneSignalPushNotification;
+		};
+		BDB6DB172C2744BC002D043C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BDB6DAEE2C2744BA002D043C /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BDB6DAF52C2744BA002D043C;
+			remoteInfo = OneSignalPushNotification;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BDB6DAF62C2744BA002D043C /* OneSignalPushNotification.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OneSignalPushNotification.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB6DAF92C2744BA002D043C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BDB6DAFB2C2744BA002D043C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		BDB6DAFD2C2744BA002D043C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BDB6DB002C2744BA002D043C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BDB6DB022C2744BC002D043C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BDB6DB052C2744BC002D043C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BDB6DB072C2744BC002D043C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BDB6DB0C2C2744BC002D043C /* OneSignalPushNotificationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSignalPushNotificationTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB6DB102C2744BC002D043C /* OneSignalPushNotificationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalPushNotificationTests.swift; sourceTree = "<group>"; };
+		BDB6DB162C2744BC002D043C /* OneSignalPushNotificationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OneSignalPushNotificationUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BDB6DB1A2C2744BC002D043C /* OneSignalPushNotificationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalPushNotificationUITests.swift; sourceTree = "<group>"; };
+		BDB6DB1C2C2744BC002D043C /* OneSignalPushNotificationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneSignalPushNotificationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BDB6DAF32C2744BA002D043C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6DB092C2744BC002D043C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6DB132C2744BC002D043C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BDB6DAED2C2744BA002D043C = {
+			isa = PBXGroup;
+			children = (
+				BDB6DAF82C2744BA002D043C /* OneSignalPushNotification */,
+				BDB6DB0F2C2744BC002D043C /* OneSignalPushNotificationTests */,
+				BDB6DB192C2744BC002D043C /* OneSignalPushNotificationUITests */,
+				BDB6DAF72C2744BA002D043C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BDB6DAF72C2744BA002D043C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DAF62C2744BA002D043C /* OneSignalPushNotification.app */,
+				BDB6DB0C2C2744BC002D043C /* OneSignalPushNotificationTests.xctest */,
+				BDB6DB162C2744BC002D043C /* OneSignalPushNotificationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BDB6DAF82C2744BA002D043C /* OneSignalPushNotification */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DAF92C2744BA002D043C /* AppDelegate.swift */,
+				BDB6DAFB2C2744BA002D043C /* SceneDelegate.swift */,
+				BDB6DAFD2C2744BA002D043C /* ViewController.swift */,
+				BDB6DAFF2C2744BA002D043C /* Main.storyboard */,
+				BDB6DB022C2744BC002D043C /* Assets.xcassets */,
+				BDB6DB042C2744BC002D043C /* LaunchScreen.storyboard */,
+				BDB6DB072C2744BC002D043C /* Info.plist */,
+			);
+			path = OneSignalPushNotification;
+			sourceTree = "<group>";
+		};
+		BDB6DB0F2C2744BC002D043C /* OneSignalPushNotificationTests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DB102C2744BC002D043C /* OneSignalPushNotificationTests.swift */,
+			);
+			path = OneSignalPushNotificationTests;
+			sourceTree = "<group>";
+		};
+		BDB6DB192C2744BC002D043C /* OneSignalPushNotificationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BDB6DB1A2C2744BC002D043C /* OneSignalPushNotificationUITests.swift */,
+				BDB6DB1C2C2744BC002D043C /* OneSignalPushNotificationUITestsLaunchTests.swift */,
+			);
+			path = OneSignalPushNotificationUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BDB6DAF52C2744BA002D043C /* OneSignalPushNotification */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6DB202C2744BC002D043C /* Build configuration list for PBXNativeTarget "OneSignalPushNotification" */;
+			buildPhases = (
+				BDB6DAF22C2744BA002D043C /* Sources */,
+				BDB6DAF32C2744BA002D043C /* Frameworks */,
+				BDB6DAF42C2744BA002D043C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = OneSignalPushNotification;
+			productName = OneSignalPushNotification;
+			productReference = BDB6DAF62C2744BA002D043C /* OneSignalPushNotification.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BDB6DB0B2C2744BC002D043C /* OneSignalPushNotificationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6DB232C2744BC002D043C /* Build configuration list for PBXNativeTarget "OneSignalPushNotificationTests" */;
+			buildPhases = (
+				BDB6DB082C2744BC002D043C /* Sources */,
+				BDB6DB092C2744BC002D043C /* Frameworks */,
+				BDB6DB0A2C2744BC002D043C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB6DB0E2C2744BC002D043C /* PBXTargetDependency */,
+			);
+			name = OneSignalPushNotificationTests;
+			productName = OneSignalPushNotificationTests;
+			productReference = BDB6DB0C2C2744BC002D043C /* OneSignalPushNotificationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BDB6DB152C2744BC002D043C /* OneSignalPushNotificationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BDB6DB262C2744BC002D043C /* Build configuration list for PBXNativeTarget "OneSignalPushNotificationUITests" */;
+			buildPhases = (
+				BDB6DB122C2744BC002D043C /* Sources */,
+				BDB6DB132C2744BC002D043C /* Frameworks */,
+				BDB6DB142C2744BC002D043C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BDB6DB182C2744BC002D043C /* PBXTargetDependency */,
+			);
+			name = OneSignalPushNotificationUITests;
+			productName = OneSignalPushNotificationUITests;
+			productReference = BDB6DB162C2744BC002D043C /* OneSignalPushNotificationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BDB6DAEE2C2744BA002D043C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1530;
+				TargetAttributes = {
+					BDB6DAF52C2744BA002D043C = {
+						CreatedOnToolsVersion = 15.3;
+					};
+					BDB6DB0B2C2744BC002D043C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDB6DAF52C2744BA002D043C;
+					};
+					BDB6DB152C2744BC002D043C = {
+						CreatedOnToolsVersion = 15.3;
+						TestTargetID = BDB6DAF52C2744BA002D043C;
+					};
+				};
+			};
+			buildConfigurationList = BDB6DAF12C2744BA002D043C /* Build configuration list for PBXProject "OneSignalPushNotification" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BDB6DAED2C2744BA002D043C;
+			productRefGroup = BDB6DAF72C2744BA002D043C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BDB6DAF52C2744BA002D043C /* OneSignalPushNotification */,
+				BDB6DB0B2C2744BC002D043C /* OneSignalPushNotificationTests */,
+				BDB6DB152C2744BC002D043C /* OneSignalPushNotificationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BDB6DAF42C2744BA002D043C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6DB032C2744BC002D043C /* Assets.xcassets in Resources */,
+				BDB6DB062C2744BC002D043C /* Base in Resources */,
+				BDB6DB012C2744BA002D043C /* Base in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6DB0A2C2744BC002D043C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6DB142C2744BC002D043C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BDB6DAF22C2744BA002D043C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6DAFE2C2744BA002D043C /* ViewController.swift in Sources */,
+				BDB6DAFA2C2744BA002D043C /* AppDelegate.swift in Sources */,
+				BDB6DAFC2C2744BA002D043C /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6DB082C2744BC002D043C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6DB112C2744BC002D043C /* OneSignalPushNotificationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDB6DB122C2744BC002D043C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BDB6DB1D2C2744BC002D043C /* OneSignalPushNotificationUITestsLaunchTests.swift in Sources */,
+				BDB6DB1B2C2744BC002D043C /* OneSignalPushNotificationUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BDB6DB0E2C2744BC002D043C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB6DAF52C2744BA002D043C /* OneSignalPushNotification */;
+			targetProxy = BDB6DB0D2C2744BC002D043C /* PBXContainerItemProxy */;
+		};
+		BDB6DB182C2744BC002D043C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BDB6DAF52C2744BA002D043C /* OneSignalPushNotification */;
+			targetProxy = BDB6DB172C2744BC002D043C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BDB6DAFF2C2744BA002D043C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB6DB002C2744BA002D043C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BDB6DB042C2744BC002D043C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BDB6DB052C2744BC002D043C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BDB6DB1E2C2744BC002D043C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BDB6DB1F2C2744BC002D043C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BDB6DB212C2744BC002D043C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalPushNotification/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OneSignalPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BDB6DB222C2744BC002D043C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = OneSignalPushNotification/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OneSignalPushNotification;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		BDB6DB242C2744BC002D043C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OneSignalPushNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneSignalPushNotification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneSignalPushNotification";
+			};
+			name = Debug;
+		};
+		BDB6DB252C2744BC002D043C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OneSignalPushNotificationTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/OneSignalPushNotification.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/OneSignalPushNotification";
+			};
+			name = Release;
+		};
+		BDB6DB272C2744BC002D043C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OneSignalPushNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneSignalPushNotification;
+			};
+			name = Debug;
+		};
+		BDB6DB282C2744BC002D043C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.plexustechnology.OneSignalPushNotificationUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = OneSignalPushNotification;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BDB6DAF12C2744BA002D043C /* Build configuration list for PBXProject "OneSignalPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6DB1E2C2744BC002D043C /* Debug */,
+				BDB6DB1F2C2744BC002D043C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6DB202C2744BC002D043C /* Build configuration list for PBXNativeTarget "OneSignalPushNotification" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6DB212C2744BC002D043C /* Debug */,
+				BDB6DB222C2744BC002D043C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6DB232C2744BC002D043C /* Build configuration list for PBXNativeTarget "OneSignalPushNotificationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6DB242C2744BC002D043C /* Debug */,
+				BDB6DB252C2744BC002D043C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BDB6DB262C2744BC002D043C /* Build configuration list for PBXNativeTarget "OneSignalPushNotificationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BDB6DB272C2744BC002D043C /* Debug */,
+				BDB6DB282C2744BC002D043C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BDB6DAEE2C2744BA002D043C /* Project object */;
+}
